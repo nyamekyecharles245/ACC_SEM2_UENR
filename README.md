@@ -51,8 +51,5 @@ The layout adjusts based on the screen width:
 
 ## 📬 Author
 
-Created by [Your Name]
+Created by Nyamekye charles.
 
----
-
-Feel free to use, modify, and share this component as needed.
