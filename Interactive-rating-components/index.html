@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Rating Form</title>
+    <link rel="stylesheet" href="style.css" />
+    <script src="/Interactive-rating-components/script.js" defer></script>
+
+  </head>
+  <body>
+    <div class="submit-container">
+      <div class="star-icon">
+        <img class="logo" src="images/icon-star.svg" alt="" />
+      </div>
+      <h2>How did we do?</h2>
+      <p>
+        Please et us know how we did with your support request. All feedback is
+        appreciated to help us improve our offering
+      </p>
+      <div class="numbers">
+        <h3 onclick="rateNum()">1</h3>
+        <h3 onclick="rateNum()">2</h3>
+        <h3 onclick="rateNum()">3</h3>
+        <h3 onclick="rateNum()">4</h3>
+        <h3 onclick="rateNum()">5</h3>
+      </div>
+      <button>SUBMIT</button>
+    </div>
+
+    <div class="thank-you-container">
+      <img src="images/illustration-thank-you.svg" alt="" />
+      <span>You selected 0 0ut of 5</span>
+      <h2>Thank you!</h2>
+      <p>
+        We appreciate you taking the time to give a rating. If you ever need
+        more support, don't hesitate to get in touch!
+      </p>
+    </div>
+  </body>
+</html>
